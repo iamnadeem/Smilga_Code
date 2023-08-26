@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';
 import { shortList, list, longList } from "./data";
 import {FaQuoteRight} from 'react-icons/fa';
 import {FiChevronLeft, FiChevronRight} from 'react-icons/fi';
@@ -23,7 +23,7 @@ const nextSlide = () => {
 };
 
 useEffect(()=> {
-    setInterval(()=> {
+   const sliderId = setInterval(()=> {
         nextSlide();
         }, 2000);
     return() => {

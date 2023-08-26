@@ -6,8 +6,9 @@ import { list } from "./data";
 import {FaQuoteRight} from 'react-icons/fa';
 
 const SlickCarousel =() =>{
-    return
+    return(
     <h2>Slick Slider</h2>
+    );
 };
 
 export default SlickCarousel;
